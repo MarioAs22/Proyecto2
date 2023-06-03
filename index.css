@@ -1,0 +1,84 @@
+.background{
+    position: relative;
+}
+.red{
+    height: 80px;
+    background: #333333; 
+  background: -webkit-linear-gradient(to right, #333333, #dd1818); 
+  background: linear-gradient(to right, #333333, 40%, #dd1818); 
+  border: 10px solid black;
+}
+.navig{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 5px;
+    justify-content: space-between;
+    position: relative;
+}
+.utlogo{
+    height: 2.5rem;
+    width: auto;
+}
+.title{
+    padding-top: 15px;
+    color: white;
+    text-align: end;
+    font-family: 'Comme', sans-serif;
+}
+.ethan{
+    display: block;
+    height: 500px;
+}
+.textcont{
+    background: #333333; 
+    background: linear-gradient(to right bottom, #333333, 20%, #dd1818); 
+    border: 10px solid black;
+    display: flex;
+    height: 84%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.titlewp{
+    border: 5px solid cornflowerblue;
+    color: white;
+    letter-spacing: 3px;
+    height: 50px;
+    font-family: 'Comme', sans-serif;    
+
+}
+.parraf1{
+    color: white;
+    height: 50px;
+    font-family: 'Comme', sans-serif;
+}
+.parraf2{
+    color: white;
+    height: 50px;
+    font-family: 'Comme', sans-serif;
+}
+.may{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 10px;
+    text-align: center;
+    margin:0;
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    border: 10px solid black;
+}
+.btnom{
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+

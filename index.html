@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+    <div class="background">
+        
+    </div>
+    <div class="blank">
+        <div class="cont">
+            <header class="red">
+                <div class="head">
+                    <nav class="navig">
+                        <div class="logo">
+                            <a href="">
+                                <img class= "utlogo"src="./Imagesproy/logo-ucamp-dark.png" alt="">
+                            </a>
+                        </div>
+                        <div class="title">Ejemplificacion de CRUD</div>
+                    </nav>
+                </div>
+            </header>
+            <div class="ethan">
+                <div class="textcont">
+                    <h1 class="titlewp">Pokedex</h1>
+                    <p class="parraf1">Aquí demostraremos el uso del CRUD como medio de almacenamiento de datos</p>
+                    <p class="parraf2">El formulario tomara los elementos de nombre, tipo y region y creara una entrada en el pokedex</p>
+                </div>
+            </div>
+            <div class="may">
+                <form>
+                    <h3 class="num">Numero</h3>
+                    <input type="text" placeholder="Numero de entrada">
+                    <h3 class="nombre">Nombre</h3>
+                    <input type="text" placeholder="Inserte el nombre del pokémon aquí">
+                    <h3 class="type">Tipo</h3>
+                    <select name="Tipo" id="tipo">
+                        <option value="Acero">Acero</option>
+                        <option value="Agua">Agua</option>
+                        <option value="Bicho">Bicho</option>
+                        <option value="Dragón">Dragón</option>
+                        <option value="Eléctrico">Eléctrico</option>
+                        <option value="Fantasma">Fantasma</option>
+                        <option value="Fuego">Fuego</option>
+                        <option value="Hada">Hada</option>
+                        <option value="Hielo">Hielo</option>
+                        <option value="Lucha">Lucha</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Planta">Planta</option>
+                        <option value="Psíquico">Psíquico</option>
+                        <option value="Roca">Roca</option>
+                        <option value="Siniestro">Siniestro</option>
+                        <option value="Tierra">Tierra</option>
+                        <option value="Veneno">Veneno</option>
+                        <option value="Volador">Volador</option>
+                    </select>
+                    <h3 class="region">Region</h3>
+                    <select name="region" id="region">
+                        <option value="Kanto">Kanto</option>
+                        <option value="Johto">Johto</option>
+                        <option value="Hoenn">Hoenn</option>
+                        <option value="Sinnoh">Sinnoh</option>
+                        <option value="Unova">Unova</option>
+                        <option value="Kalos">Kalos</option>
+                        <option value="Alola">Alola</option>
+                        <option value="Galar">Galar</option>
+                        <option value="Paldea">Paldea</option>
+                    </select>
+                    <button class="btnom">Submit</button>
+                </form>
+            </div>
+            <div class="dawn">
+                <div class="tabdispl">
+                    <div class="entry">
+                        <div class="info">
+                            <div class="infodisp">
+                                <h3 class="noinf">Aun no has registrado nungún pokémon</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
