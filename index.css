@@ -49,7 +49,7 @@
 }
 .titlewp{
     border: 5px solid cornflowerblue;
-    color: white;
+    color: yellow;
     letter-spacing: 3px;
     height: 50px;
     font-family: 'Comme', sans-serif;    
@@ -66,8 +66,8 @@
     font-family: 'Comme', sans-serif;
 }
 .may{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     text-align: center;
     margin:0;
@@ -76,9 +76,73 @@
     background: linear-gradient(to right, #434343, #000000);
     border: 10px solid black;
 }
+form h3{
+    color: aliceblue;
+}
+form input{
+    
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    box-shadow: -3px 6px 4px #222;
+
+}
+.dawn{
+    display: block;
+    gap: 10px;
+    text-align: left;
+    margin:0;
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    border: 10px solid black;
+}
+infodisp p{
+    color: aliceblue;
+}
 .btnom{
     height: 50px;
     border-radius: 10px;
     background-color: white;
 }
-
+.ul{
+    list-style: none;
+    width: 400px;
+    padding-right: 20px;
+}
+ul li{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+    grid-template-rows: 0.5fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    width: 90%;
+    background: linear-gradient(to right, #434343, #000000);
+    color: yellow;
+    height: 100%;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
+    margin: 5px 0;
+    box-shadow: -3px 6px 4px #222;
+    border:4px solid blue;
+}
+@media screen and (max-width: 500px) {
+    ul li{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
+        grid-template-rows: 0.5fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+        width: 90%;
+        background-color: aliceblue;
+        height: 100%;
+        line-height: 40px;
+        padding: 0 5px;
+        position: relative;
+        margin: 5px 0;
+        box-shadow: -3px 6px 4px #222;
+        border:4px solid blue;
+    }
+}

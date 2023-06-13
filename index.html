@@ -4,32 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplificacion de CRUD</title>
     <link rel="stylesheet" href="index.css" >
 </head>
 <body>
-<<<<<<< HEAD
     <div class="background">
         
     </div>
-=======
->>>>>>> 0cfcec8 (Se creo la estructura de HTML)
     <div class="blank">
         <div class="cont">
             <header class="red">
                 <div class="head">
                     <nav class="navig">
-<<<<<<< HEAD
                         <div class="logo">
                             <a href="">
                                 <img class= "utlogo"src="./Imagesproy/logo-ucamp-dark.png" alt="">
                             </a>
                         </div>
                         <div class="title">Ejemplificacion de CRUD</div>
-=======
-                        <div class="logo"></div>
-                        <div class="title"></div>
->>>>>>> 0cfcec8 (Se creo la estructura de HTML)
                     </nav>
                 </div>
             </header>
@@ -42,10 +34,10 @@
             </div>
             <div class="may">
                 <form>
-                    <h3 class="num">Numero</h3>
-                    <input type="text" placeholder="Numero de entrada">
+                    <h3 class="numero">Numero</h3>
+                    <input id= "numero" type="text" placeholder="Numero de entrada">
                     <h3 class="nombre">Nombre</h3>
-                    <input type="text" placeholder="Inserte el nombre del pokémon aquí">
+                    <input id= "nombre" type="text" placeholder="Inserte el nombre del pokémon aquí">
                     <h3 class="type">Tipo</h3>
                     <select name="Tipo" id="tipo">
                         <option value="Acero">Acero</option>
@@ -79,15 +71,22 @@
                         <option value="Galar">Galar</option>
                         <option value="Paldea">Paldea</option>
                     </select>
-                    <button class="btnom">Submit</button>
+                    
                 </form>
+                <div class="btncont">
+                    <button id="btnom">Submit</button>
+                </div>
             </div>
             <div class="dawn">
                 <div class="tabdispl">
                     <div class="entry">
                         <div class="info">
                             <div class="infodisp">
-                                <h3 class="noinf">Aun no has registrado nungún pokémon</h3>
+                                <p>Pokemones:</p>
+                                <ul id="pokereg">
+                                    
+                                </ul>
+
                             </div>
                         </div>
                     </div>
